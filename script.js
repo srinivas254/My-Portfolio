@@ -57,10 +57,3 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-
-let btn1 = document.querySelector('#recipe');
-
-btn1.addEventListener('click', () => {
-    const url = "https://github.com/srinivas254/Recipe-book";
-    let response = fetch(url); 
-});
