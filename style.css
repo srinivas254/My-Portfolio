@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-html {
+ html {
     scroll-behavior: smooth;
-}
+} 
 
 body {
     background-color: rgb(0, 0, 33);
@@ -496,6 +496,11 @@ main.row {
     height: 20px;
     float: left;
     background: linear-gradient(135deg, rgb(57, 45, 227) 0%, rgb(240, 245, 245)100%);
+}
+
+.java{
+    width:60%;
+    animation: html 1s;
 }
 
 .html {
