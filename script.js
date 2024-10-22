@@ -37,11 +37,10 @@ window.onscroll = toggleStickyNav;
 
 /* scroling function*/
 document.addEventListener('DOMContentLoaded', function () {
-    const achievements = document.querySelectorAll('#achieveandinterest');
+    const projects = document.querySelectorAll('#projectandinterest');
 
-    achievements.forEach(achievement => {
-        achievement.addEventListener('click', function () {
-            event.preventDefault();
+    projects.forEach(project => {
+        project.addEventListener('click', function () {
             // Adjust the offset value based on your layout
             const offset = elmnt.offset
             const target = this.getAttribute('href');
