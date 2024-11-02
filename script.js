@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   projects.forEach((project) => {
     project.addEventListener("click", function () {
       // Adjust the offset value based on your layout
-      const offset = elmnt.offset;
+      const offset = 100;
       const target = this.getAttribute("href");
       const targetElement = document.querySelector(target);
 
