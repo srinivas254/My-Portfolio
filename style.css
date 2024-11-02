@@ -948,53 +948,45 @@ button:hover {
 /* footer section */
 
 
-.foot-social-icons-in {
+.icons-foot {
     margin: 0 2px;
-    gap: 20%;
     font-size: 40px;
     color: #ccd3d7;
     transition-delay: 0.3s;
 }
 
-.foot-social-icons-in a {
-    margin-right: 6rem; 
-}
 
-.foot-social-icons-in a:last-child {
-    margin-right: 0; 
-}
-
-.foot-social-icons-git {
-    margin: 0 0 0 2px;
-    gap: 20%;
-    font-size: 40px;
-    color: #ccd3d7;
-    transition-delay: 0.3s;
-}
-
-.foot-social-icons-git a {
-    margin-right: 6rem; 
-}
-
-.foot-social-icons-git a:last-child {
-    margin-right: 0; 
-}
-
-
-footer .centre {
-    font-size: 2rem;
-}
-
-
-
-.foot-social-icons-git a:hover,
-.foot-social-icons-in a:hover {
+.icons-foot a:hover {
     color: #afacf0a9;
     transform: scale(1.2);
-
 }
 
+#footer{
+    width:100%;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:0;
+}
 
+#footer_container{
+    display: flex; 
+    gap:4rem;  
+    margin: 0 auto; 
+    padding: 20px;
+    overflow-x:hidden;
+}
+
+.icons-foot {
+    flex: 1; 
+    text-align: center;
+}
+
+#footer_text a{
+    text-decoration:none;
+    color:white;
+    cursor:pointer;
+}
 
 
 /* Media queries for mobile screens */
@@ -1002,18 +994,17 @@ footer .centre {
 
     #footer{
         margin-bottom: 10px;
-
+        width:100%;
     }
 
-    .centre {
-        font-size: 20px;
-        margin-bottom: 30px;
+    #footer_container{
+        display:flex;
+        gap:1.5rem;
     }
 
     /* Example of adjusting font size for social icons */
-    .foot-social-icons-git,
-    .foot-social-icons-in {
-        font-size: 18px;
+    .icons-foot{
+        font-size: 30px;
         margin-bottom: 35px;
     }
 } 
