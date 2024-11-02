@@ -216,6 +216,10 @@ nav ul li a:hover {
         /* Adjust margin for mobile */
     }
 
+    .social-icons{
+        margin-right:30px;
+    }
+
     .firstsection>div {
         width: 80%;
         /* Make the divs take up more width on mobile */
@@ -234,7 +238,6 @@ nav ul li a:hover {
         /* Make the image take full width on mobile */
         margin: 30px 0;
         /* Adjust margin for mobile */
-        border-radius: 50%;
     }
 }
 
@@ -655,11 +658,14 @@ main.row {
         margin-bottom: 20px;
     }
 
-    
+
     h1,
-    h3,
-    h5 {
+    h3{
         font-size: 18px;
+    }
+
+    h5{
+        font-size: 15px;
     }
 }
 
@@ -985,14 +991,14 @@ footer .centre {
     }
 
     .centre {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         margin-bottom: 30px;
     }
 
     /* Example of adjusting font size for social icons */
     .foot-social-icons-git,
     .foot-social-icons-in {
-        font-size: 30px;
+        font-size: 24px;
         margin-bottom: 35px;
     }
 } 
