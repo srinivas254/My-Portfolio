@@ -460,7 +460,7 @@ main.row {
 }
 
 #skill {
-    height: 630px;
+    height: 650px;
     width: 500px;
     margin: 60px auto;
     color: #fff;
@@ -604,7 +604,7 @@ main.row {
 }
 
 #codelanguage {
-    height: 630px;
+    height: 650px;
     width: 500px;
     margin: 60px auto;
     color: #fff;
@@ -636,8 +636,7 @@ main.row {
 }
 
 @media screen and (max-width: 768px) {
-    #skillandlang {
-
+    #skillandlangcode {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -646,7 +645,7 @@ main.row {
     }
 
     #skill,
-    #language {
+    #codelanguage {
         width: 70%;
     }
 
@@ -656,9 +655,7 @@ main.row {
         margin-bottom: 20px;
     }
 
-
-
-
+    
     h1,
     h3,
     h5 {
@@ -952,13 +949,7 @@ button:hover {
     transition-delay: 0.3s;
 }
 
-.foot-social-icons-in2{
-    margin: 0 2px;
-    gap: 20%;
-    font-size: 40px;
-    color: #ccd3d7;
-    transition-delay: 0.3s;
-}
+
 
 .foot-social-icons-git {
     margin: 0 0 0 2px;
@@ -968,13 +959,6 @@ button:hover {
     transition-delay: 0.3s;
 }
 
-.foot-social-icons-git2{
-    margin: 0 0 0 2px;
-    gap: 20%;
-    font-size: 40px;
-    color: #ccd3d7;
-    transition-delay: 0.3s;
-}
 
 footer .centre {
     font-size: 2rem;
@@ -1001,7 +985,7 @@ footer .centre {
     }
 
     .centre {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-bottom: 30px;
     }
 
