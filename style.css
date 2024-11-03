@@ -110,9 +110,9 @@ nav ul li a:hover {
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: 16vh;
+        top: 6vh;
         left: 0;
-        width: 100%;
+        width: 90%;
         margin: auto;
         z-index: 1;
         background-color: rgba(0, 0, 0, 0.9);
